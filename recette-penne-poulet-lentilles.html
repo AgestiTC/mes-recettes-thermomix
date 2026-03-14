@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penne au Poulet, Lentilles Corail & Sauce Tomate Épicée</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Penne au Poulet, Lentilles Corail & Sauce Tomate Épicée",
+    "author": { "@type": "Person", "name": "Claude (Anthropic)" },
+    "description": "Le combo gagnant des sportifs : pâtes + lentilles = double dose de glucides complexes avec un apport protéique exceptionnel. Une recette complète, rassasiante et anti-inflammatoire grâce au gingembre et au curcuma.",
+    "recipeYield": "4 portions",
+    "prepTime": "PT10M",
+    "cookTime": "PT31M",
+    "totalTime": "PT41M",
+    "recipeCategory": "Plat principal",
+    "recipeCuisine": "Healthy Sport",
+    "keywords": "glucides, sport, pâtes, lentilles, poulet, Thermomix, pré-effort, énergie, anti-inflammatoire",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "620 kcal",
+      "servingSize": "1 portion",
+      "carbohydrateContent": "78 g",
+      "proteinContent": "45 g",
+      "fatContent": "11 g"
+    },
+    "recipeIngredient": [
+      "320 g de penne rigate (ou fusilli)",
+      "150 g de lentilles corail sèches",
+      "300 g de filets de poulet",
+      "400 g de tomates pelées en boîte",
+      "1 oignon",
+      "3 gousses d'ail",
+      "10 g de gingembre frais râpé",
+      "2 cuillères à soupe d'huile d'olive",
+      "1 cuillère à café de curcuma",
+      "1 cuillère à café de paprika doux",
+      "700 ml de bouillon de volaille",
+      "60 g d'épinards frais",
+      "40 g de parmesan râpé",
+      "Sel & poivre"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Préparer les aromates",
+        "text": "Éplucher l'oignon, l'ail et ajouter le gingembre râpé. Mettre dans le bol. Mixer 5 sec / vitesse 5. Racler les parois."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Faire revenir les épices",
+        "text": "Ajouter l'huile d'olive, le curcuma et le paprika doux. Faire revenir 3 min / 120°C / vitesse 1 / sans verre doseur."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Ajouter le poulet",
+        "text": "Couper les filets de poulet en cubes de 2 cm. Ajouter dans le bol avec les tomates pelées et le bouillon de volaille. Cuire 8 min / 100°C / sens inverse / vitesse 1."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Ajouter lentilles & pâtes",
+        "text": "Ajouter les lentilles corail rincées et les penne. Saler et poivrer. Cuire 18 min / 100°C / sens inverse / vitesse 1 avec le panier vapeur posé sur le couvercle à la place du verre doseur."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Finition aux épinards",
+        "text": "Vérifier la cuisson des pâtes. Ajouter les épinards frais. Cuire 2 min / 100°C / sens inverse / vitesse 1."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Service",
+        "text": "Verser dans les assiettes et parsemer de parmesan râpé. Servir immédiatement, chaud."
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf7f2;
+      --surface: #f0ebe0;
+      --card: #ffffff;
+      --red: #c0392b;
+      --red-light: #f9ede9;
+      --orange: #e67e22;
+      --green: #27ae60;
+      --dark: #1e1a14;
+      --muted: #7a6f5e;
+      --border: #e5ddd0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--dark);
+      font-family: 'Anybody', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+    }
+    header {
+      background: var(--red);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '🍝';
+      position: absolute;
+      right: 1.5rem; top: 1.5rem;
+      font-size: 5rem;
+      opacity: 0.12;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: -30px; left: -30px;
+      width: 150px; height: 150px;
+      border-radius: 50%;
+      background: var(--orange);
+      opacity: 0.2;
+    }
+    .badges { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+    .badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 100px;
+    }
+    .badge-white { background: rgba(255,255,255,0.2); color: white; border: 1px solid rgba(255,255,255,0.3); }
+    .badge-orange { background: var(--orange); color: white; }
+    h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.7rem, 4vw, 2.6rem);
+      font-weight: 600;
+      line-height: 1.2;
+      max-width: 560px;
+    }
+    .meta {
+      display: flex; gap: 2rem; flex-wrap: wrap;
+      margin-top: 1.5rem;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.75);
+      font-weight: 300;
+    }
+    .meta strong { color: white; font-weight: 600; }
+    .author { margin-top: 1rem; font-size: 0.78rem; color: rgba(255,255,255,0.6); font-style: italic; }
+    main { max-width: 820px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+    .desc {
+      background: var(--red-light);
+      border-left: 4px solid var(--red);
+      padding: 1.2rem 1.5rem;
+      border-radius: 0 10px 10px 0;
+      margin-bottom: 2.5rem;
+      font-size: 0.92rem;
+      line-height: 1.75;
+      color: #5a2020;
+    }
+    .macros {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 2.5rem;
+    }
+    @media(max-width: 500px) { .macros { grid-template-columns: repeat(2, 1fr); } }
+    .macro {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .macro .val { font-size: 1.4rem; font-weight: 700; color: var(--red); }
+    .macro .lbl { font-size: 0.72rem; color: var(--muted); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .two-col { display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.5rem; margin-bottom: 2.5rem; }
+    @media(max-width: 580px) { .two-col { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+    }
+    .card h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 2px solid var(--red);
+    }
+    .card ul { list-style: none; }
+    .card ul li {
+      padding: 0.45rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 0.5rem;
+    }
+    .card ul li:last-child { border-bottom: none; }
+    .ing-name { color: var(--dark); flex: 1; }
+    .qty { color: var(--red); font-weight: 600; font-size: 0.85rem; white-space: nowrap; }
+    .steps-section h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 2rem;
+    }
+    .step {
+      display: flex; gap: 1.2rem;
+      margin-bottom: 1.8rem;
+      align-items: flex-start;
+    }
+    .step-num {
+      width: 38px; height: 38px;
+      background: var(--red);
+      color: white;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.9rem; font-weight: 700;
+      flex-shrink: 0;
+    }
+    .step-body h3 {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+    .step-body p { font-size: 0.92rem; line-height: 1.65; color: var(--dark); }
+    .tm {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--red);
+      font-size: 0.72rem;
+      font-family: 'Courier New', monospace;
+      font-weight: 600;
+      padding: 0.2rem 0.65rem;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
+    .notes {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--orange);
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-top: 2.5rem;
+    }
+    .notes h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--orange);
+    }
+    .notes p { font-size: 0.88rem; line-height: 1.75; color: var(--muted); margin-bottom: 0.6rem; }
+    .notes p strong { color: var(--dark); }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badges">
+      <span class="badge badge-orange">⚡ Pré-effort sportif</span>
+      <span class="badge badge-white">Glucides complexes</span>
+      <span class="badge badge-white">Anti-inflammatoire</span>
+    </div>
+    <h1>Penne au Poulet, Lentilles Corail & Sauce Tomate Épicée</h1>
+    <div class="meta">
+      <span><strong>4</strong> portions</span>
+      <span><strong>10 min</strong> préparation</span>
+      <span><strong>31 min</strong> cuisson</span>
+      <span>TM5 / TM6</span>
+    </div>
+    <p class="author">✨ Recette créée par Claude (Anthropic)</p>
+  </header>
+
+  <main>
+    <p class="desc">
+      Le combo gagnant des sportifs : pâtes + lentilles = double dose de glucides complexes avec un apport protéique exceptionnel. Une recette complète, rassasiante et anti-inflammatoire grâce au gingembre et au curcuma.
+    </p>
+
+    <div class="macros">
+      <div class="macro"><div class="val">78g</div><div class="lbl">Glucides</div></div>
+      <div class="macro"><div class="val">45g</div><div class="lbl">Protéines</div></div>
+      <div class="macro"><div class="val">11g</div><div class="lbl">Lipides</div></div>
+      <div class="macro"><div class="val">620</div><div class="lbl">kcal</div></div>
+    </div>
+
+    <div class="two-col">
+      <div class="card">
+        <h2>🍝 Ingrédients</h2>
+        <ul>
+          <li><span class="ing-name">Penne rigate (ou fusilli)</span><span class="qty">320 g</span></li>
+          <li><span class="ing-name">Lentilles corail sèches</span><span class="qty">150 g</span></li>
+          <li><span class="ing-name">Filets de poulet</span><span class="qty">300 g</span></li>
+          <li><span class="ing-name">Tomates pelées (boîte)</span><span class="qty">400 g</span></li>
+          <li><span class="ing-name">Oignon</span><span class="qty">1</span></li>
+          <li><span class="ing-name">Gousses d'ail</span><span class="qty">3</span></li>
+          <li><span class="ing-name">Gingembre frais râpé</span><span class="qty">10 g</span></li>
+          <li><span class="ing-name">Huile d'olive</span><span class="qty">2 c.s.</span></li>
+          <li><span class="ing-name">Curcuma</span><span class="qty">1 c.c.</span></li>
+          <li><span class="ing-name">Paprika doux</span><span class="qty">1 c.c.</span></li>
+          <li><span class="ing-name">Bouillon de volaille</span><span class="qty">700 ml</span></li>
+          <li><span class="ing-name">Épinards frais</span><span class="qty">60 g</span></li>
+          <li><span class="ing-name">Parmesan râpé</span><span class="qty">40 g</span></li>
+          <li><span class="ing-name">Sel & poivre</span><span class="qty">PM</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>⏱ Timing sportif</h2>
+        <ul>
+          <li><span class="ing-name">Préparation</span><span class="qty">10 min</span></li>
+          <li><span class="ing-name">Cuisson</span><span class="qty">31 min</span></li>
+          <li><span class="ing-name">Total</span><span class="qty" style="color: var(--orange);">41 min</span></li>
+          <li><span class="ing-name">Avant l'effort</span><span class="qty">2h30 – 3h</span></li>
+          <li><span class="ing-name">Difficulté</span><span class="qty">Facile</span></li>
+          <li><span class="ing-name">Robot</span><span class="qty">TM5 / TM6</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="steps-section">
+      <h2>Préparation Thermomix</h2>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Préparer les aromates</h3>
+          <p>Éplucher l'oignon et l'ail, ajouter le gingembre râpé. Mettre dans le bol.</p>
+          <span class="tm">5 sec · Vit. 5 → racler les parois</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>Faire revenir les épices</h3>
+          <p>Ajouter l'huile d'olive, le curcuma et le paprika doux.</p>
+          <span class="tm">3 min · 120°C · Vit. 1 · sans verre doseur</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Ajouter le poulet</h3>
+          <p>Couper les filets en cubes de 2 cm. Ajouter dans le bol avec les tomates pelées et le bouillon.</p>
+          <span class="tm">8 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h3>Lentilles & pâtes</h3>
+          <p>Ajouter les lentilles corail rincées et les penne. Saler et poivrer. Poser le panier vapeur sur le couvercle à la place du verre doseur.</p>
+          <span class="tm">18 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <h3>Finition aux épinards</h3>
+          <p>Vérifier la cuisson des pâtes. Ajouter les épinards frais.</p>
+          <span class="tm">2 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-body">
+          <h3>Service</h3>
+          <p>Verser dans les assiettes et parsemer de parmesan râpé. Servir immédiatement, chaud.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="notes">
+      <h2>💡 Notes & conseils</h2>
+      <p>⚡ <strong>Timing sportif :</strong> À consommer 2h30 à 3h avant l'effort — pâtes + lentilles offrent une libération d'énergie prolongée idéale.</p>
+      <p>💡 <strong>Astuce :</strong> Les lentilles corail fondent dans la sauce et l'épaississent naturellement — pas besoin de maïzena !</p>
+      <p>🌿 <strong>Anti-inflammatoire :</strong> Curcuma + gingembre = combo parfait pour la récupération musculaire.</p>
+      <p>🔄 <strong>Variante :</strong> Remplace le poulet par des crevettes (ajoutées 5 min avant la fin) pour une version surf & turf glucidique.</p>
+    </div>
+  </main>
+
+  <footer>
+    ✨ Recette créée par <strong>Claude</strong> (Anthropic) · Optimisée Thermomix TM5/TM6
+  </footer>
+</body>
+</html>
