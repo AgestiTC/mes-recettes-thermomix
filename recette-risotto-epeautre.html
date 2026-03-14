@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risotto d'Épeautre aux Champignons & Herbes Fraîches</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Risotto d'Épeautre aux Champignons & Herbes Fraîches",
+    "author": { "@type": "Person", "name": "Claude (Anthropic)" },
+    "description": "Un plat riche en glucides complexes, gourmand et énergisant. L'épeautre apporte un index glycémique plus bas que le riz blanc, pour une énergie durable. Parfait avant une activité sportive.",
+    "recipeYield": "4 portions",
+    "prepTime": "PT10M",
+    "cookTime": "PT36M",
+    "totalTime": "PT46M",
+    "recipeCategory": "Plat principal",
+    "recipeCuisine": "Française",
+    "keywords": "glucides, sport, épeautre, champignons, Thermomix, pré-effort, énergie",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 portion"
+    },
+    "recipeIngredient": [
+      "300 g d'épeautre (ou riz arborio)",
+      "250 g de champignons de Paris",
+      "1 oignon",
+      "2 gousses d'ail",
+      "900 ml de bouillon de légumes chaud",
+      "100 ml de vin blanc sec",
+      "60 g de parmesan râpé",
+      "2 cuillères à soupe d'huile d'olive",
+      "20 g de persil frais haché",
+      "3 g de thym frais",
+      "Sel & poivre noir"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Préparer les légumes",
+        "text": "Éplucher l'oignon et l'ail, les mettre dans le bol. Mixer 5 sec / vitesse 5. Racler les parois."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Faire revenir la base",
+        "text": "Ajouter l'huile d'olive. Faire revenir 3 min / 120°C / vitesse 1 / sans verre doseur."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Ajouter les champignons",
+        "text": "Couper les champignons en lamelles et les ajouter dans le bol avec le thym. Cuire 4 min / 100°C / sens inverse / vitesse 1."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Nacrer l'épeautre",
+        "text": "Ajouter l'épeautre. Cuire 2 min / 100°C / sens inverse / vitesse 1 sans verre doseur pour nacrer les grains."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Déglacer au vin blanc",
+        "text": "Verser le vin blanc. Cuire 2 min / Varoma / sens inverse / vitesse 1 pour évaporer l'alcool."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Cuisson principale",
+        "text": "Ajouter le bouillon de légumes chaud, sel et poivre. Cuire 25 min / 100°C / sens inverse / vitesse 1 avec le panier vapeur posé sur le couvercle à la place du verre doseur."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Mantecatura & service",
+        "text": "Ajouter le parmesan et le persil haché. Mélanger 20 sec / sens inverse / vitesse 2. Laisser reposer 2 min couvercle fermé avant de servir."
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #f7f3ee;
+      --dark: #1a1a18;
+      --olive: #6b7c45;
+      --rust: #c4622d;
+      --sand: #e8dcc8;
+      --light-olive: #d4dcc0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--cream);
+      color: var(--dark);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+    }
+    header {
+      background: var(--dark);
+      color: var(--cream);
+      padding: 3rem 2rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: -40px; right: -40px;
+      width: 200px; height: 200px;
+      border-radius: 50%;
+      background: var(--olive);
+      opacity: 0.15;
+    }
+    .tag {
+      display: inline-block;
+      background: var(--rust);
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 2px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      line-height: 1.2;
+      max-width: 600px;
+    }
+    .meta {
+      display: flex; gap: 1.5rem; flex-wrap: wrap;
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--sand);
+      font-weight: 300;
+    }
+    .meta span::before { content: '◆ '; color: var(--rust); font-size: 0.6rem; vertical-align: middle; }
+    .author {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--light-olive);
+      font-style: italic;
+    }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    .description {
+      background: var(--light-olive);
+      border-left: 4px solid var(--olive);
+      padding: 1.2rem 1.5rem;
+      border-radius: 0 8px 8px 0;
+      margin: 2rem 0;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #3a3a2e;
+    }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0; }
+    @media(max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--olive);
+      margin-bottom: 1rem;
+      display: flex; align-items: center; gap: 0.5rem;
+    }
+    .card ul { list-style: none; }
+    .card ul li {
+      padding: 0.4rem 0;
+      border-bottom: 1px dashed var(--sand);
+      font-size: 0.9rem;
+      display: flex; justify-content: space-between;
+    }
+    .card ul li:last-child { border-bottom: none; }
+    .qty { font-weight: 500; color: var(--rust); }
+    .steps-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+    }
+    .step {
+      display: flex; gap: 1rem;
+      margin-bottom: 1.5rem;
+      align-items: flex-start;
+    }
+    .step-num {
+      background: var(--rust);
+      color: white;
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.85rem; font-weight: 600;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .step-body h3 {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--olive);
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .step-body p { font-size: 0.95rem; line-height: 1.6; color: #333; }
+    .tm-badge {
+      display: inline-block;
+      background: var(--sand);
+      color: var(--dark);
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      margin-top: 0.4rem;
+      font-family: monospace;
+    }
+    .notes {
+      background: #fffdf7;
+      border: 1px solid var(--sand);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-top: 2.5rem;
+    }
+    .notes h2 { font-family: 'Playfair Display', serif; font-size: 1.1rem; margin-bottom: 1rem; }
+    .notes p { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.6rem; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #999;
+      border-top: 1px solid var(--sand);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="tag">⚡ Pré-effort sportif · Glucides complexes</div>
+    <h1>Risotto d'Épeautre aux Champignons & Herbes Fraîches</h1>
+    <div class="meta">
+      <span>4 portions</span>
+      <span>Prép. 10 min</span>
+      <span>Cuisson 36 min</span>
+      <span>TM5 / TM6</span>
+    </div>
+    <p class="author">✨ Recette créée par Claude (Anthropic)</p>
+  </header>
+
+  <main>
+    <div class="description">
+      Un plat riche en glucides complexes, gourmand et énergisant. L'épeautre apporte un index glycémique plus bas que le riz blanc, pour une énergie durable. Parfait 2h30 avant une activité sportive ou en repas principal équilibré.
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>🌾 Ingrédients</h2>
+        <ul>
+          <li><span>Épeautre (ou riz arborio)</span><span class="qty">300 g</span></li>
+          <li><span>Champignons de Paris</span><span class="qty">250 g</span></li>
+          <li><span>Oignon</span><span class="qty">1</span></li>
+          <li><span>Gousses d'ail</span><span class="qty">2</span></li>
+          <li><span>Bouillon de légumes chaud</span><span class="qty">900 ml</span></li>
+          <li><span>Vin blanc sec</span><span class="qty">100 ml</span></li>
+          <li><span>Parmesan râpé</span><span class="qty">60 g</span></li>
+          <li><span>Huile d'olive</span><span class="qty">2 c.s.</span></li>
+          <li><span>Persil frais haché</span><span class="qty">20 g</span></li>
+          <li><span>Thym frais</span><span class="qty">3 g</span></li>
+          <li><span>Sel & poivre noir</span><span class="qty">PM</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>📊 Nutrition (par portion)</h2>
+        <ul>
+          <li><span>Glucides</span><span class="qty">~68 g</span></li>
+          <li><span>Protéines</span><span class="qty">~18 g</span></li>
+          <li><span>Lipides</span><span class="qty">~10 g</span></li>
+          <li><span>Fibres</span><span class="qty">~7 g</span></li>
+          <li><span>Calories</span><span class="qty">~440 kcal</span></li>
+          <li><span>Index glycémique</span><span class="qty">Modéré</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="steps-section">
+      <h2>Préparation Thermomix</h2>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Préparer les légumes</h3>
+          <p>Éplucher l'oignon et l'ail, les mettre dans le bol.</p>
+          <span class="tm-badge">5 sec · Vit. 5</span>
+          <p style="margin-top:0.4rem">Racler les parois.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>Faire revenir la base</h3>
+          <p>Ajouter l'huile d'olive.</p>
+          <span class="tm-badge">3 min · 120°C · Vit. 1 · sans verre doseur</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Ajouter les champignons</h3>
+          <p>Couper les champignons en lamelles. Ajouter dans le bol avec le thym.</p>
+          <span class="tm-badge">4 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h3>Nacrer l'épeautre</h3>
+          <p>Ajouter l'épeautre.</p>
+          <span class="tm-badge">2 min · 100°C · ↺ Sens inverse · Vit. 1 · sans verre doseur</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <h3>Déglacer au vin blanc</h3>
+          <p>Verser le vin blanc.</p>
+          <span class="tm-badge">2 min · Varoma · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-body">
+          <h3>Cuisson principale</h3>
+          <p>Ajouter le bouillon de légumes chaud, sel et poivre. Poser le panier vapeur sur le couvercle à la place du verre doseur.</p>
+          <span class="tm-badge">25 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">7</div>
+        <div class="step-body">
+          <h3>Mantecatura & service</h3>
+          <p>Ajouter le parmesan râpé et le persil haché.</p>
+          <span class="tm-badge">20 sec · ↺ Sens inverse · Vit. 2</span>
+          <p style="margin-top:0.4rem">Laisser reposer 2 min couvercle fermé avant de servir.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="notes">
+      <h2>💡 Notes & conseils</h2>
+      <p>⚡ <strong>Timing sportif :</strong> À consommer 2h30 avant l'entraînement ou la compétition.</p>
+      <p>🔄 <strong>Variantes :</strong> Remplace les champignons par petits pois + menthe (printemps) ou potimarron + sauge (automne).</p>
+      <p>💧 <strong>Hydratation :</strong> Pense à bien t'hydrater en parallèle !</p>
+    </div>
+  </main>
+
+  <footer>
+    ✨ Recette créée par <strong>Claude</strong> (Anthropic) · Optimisée Thermomix TM5/TM6
+  </footer>
+</body>
+</html>

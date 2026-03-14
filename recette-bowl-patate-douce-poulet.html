@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bowl Énergétique Patate Douce & Poulet</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Bowl Énergétique Patate Douce & Poulet",
+    "author": { "@type": "Person", "name": "Claude (Anthropic)" },
+    "description": "Un classique des athlètes : glucides complexes à IG modéré, protéines maigres et bons lipides. À consommer 2h30 avant l'effort pour un carburant durable.",
+    "recipeYield": "2 portions",
+    "prepTime": "PT10M",
+    "cookTime": "PT21M",
+    "totalTime": "PT31M",
+    "recipeCategory": "Plat principal",
+    "recipeCuisine": "Healthy",
+    "keywords": "glucides, sport, patate douce, poulet, pois chiches, Thermomix, pré-effort, énergie",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "550 kcal",
+      "servingSize": "1 portion",
+      "carbohydrateContent": "65 g",
+      "proteinContent": "40 g",
+      "fatContent": "12 g"
+    },
+    "recipeIngredient": [
+      "500 g de patates douces",
+      "300 g de filets de poulet",
+      "200 g de pois chiches cuits (en boîte, égouttés)",
+      "80 g d'épinards frais",
+      "1 oignon rouge",
+      "2 gousses d'ail",
+      "2 cuillères à soupe d'huile d'olive",
+      "1 cuillère à café de cumin en poudre",
+      "1 cuillère à café de paprika fumé",
+      "0.5 cuillère à café de curcuma",
+      "200 ml de bouillon de volaille",
+      "1 cuillère à soupe de jus de citron",
+      "Sel & poivre"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Préparer les aromates",
+        "text": "Éplucher l'oignon rouge et l'ail, les mettre dans le bol. Mixer 5 sec / vitesse 5. Racler les parois."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Faire revenir les épices",
+        "text": "Ajouter l'huile d'olive, le cumin, le paprika fumé et le curcuma. Faire revenir 3 min / 120°C / vitesse 1 / sans verre doseur pour torréfier les épices."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Ajouter le poulet",
+        "text": "Couper les filets de poulet en cubes de 3 cm. Les ajouter dans le bol avec le bouillon de volaille, sel et poivre. Cuire 12 min / 100°C / sens inverse / vitesse 1."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Ajouter patates douces & pois chiches",
+        "text": "Éplucher et couper les patates douces en cubes de 2 cm. Ajouter les patates douces et les pois chiches dans le bol. Cuire 15 min / 100°C / sens inverse / vitesse 1."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Finition aux épinards",
+        "text": "Ajouter les épinards frais et le jus de citron. Cuire 2 min / 100°C / sens inverse / vitesse 1 pour juste faner les épinards."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Dresser le bowl",
+        "text": "Verser dans des bols. Déguster chaud ou tiède. Tu peux ajouter une cuillère de tahini ou quelques graines de courge pour les bons lipides."
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1a0f;
+      --surface: #162016;
+      --card: #1c2b1c;
+      --green: #4caf6e;
+      --orange: #e8874a;
+      --text: #e8ead4;
+      --muted: #8a9a7a;
+      --border: #2a3d2a;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Sora', sans-serif;
+      min-height: 100vh;
+    }
+    header {
+      padding: 3rem 2rem 2.5rem;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+    header::after {
+      content: '⚡';
+      position: absolute;
+      right: 2rem; top: 2rem;
+      font-size: 4rem;
+      opacity: 0.08;
+    }
+    .badge {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: var(--green);
+      color: var(--bg);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.9rem;
+      border-radius: 100px;
+      margin-bottom: 1.2rem;
+    }
+    h1 {
+      font-family: 'Crimson Pro', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 600;
+      line-height: 1.15;
+      max-width: 580px;
+      color: var(--text);
+    }
+    h1 em { color: var(--orange); font-style: italic; }
+    .meta {
+      display: flex; gap: 2rem; flex-wrap: wrap;
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+    .meta strong { color: var(--green); }
+    .author { margin-top: 1rem; font-size: 0.78rem; color: var(--muted); font-style: italic; }
+    main { max-width: 820px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+    .desc {
+      background: var(--card);
+      border-left: 3px solid var(--green);
+      padding: 1.2rem 1.5rem;
+      border-radius: 0 10px 10px 0;
+      margin-bottom: 2.5rem;
+      font-size: 0.9rem;
+      line-height: 1.75;
+      color: var(--muted);
+    }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2.5rem; }
+    @media(max-width: 560px) { .two-col { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+    }
+    .card h2 {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.1rem;
+      color: var(--green);
+      margin-bottom: 1.2rem;
+      letter-spacing: 0.02em;
+    }
+    .card ul { list-style: none; }
+    .card ul li {
+      padding: 0.45rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .card ul li:last-child { border-bottom: none; }
+    .qty { color: var(--orange); font-weight: 600; font-size: 0.85rem; }
+    section.steps h2 {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+      color: var(--text);
+    }
+    .step {
+      display: flex; gap: 1.2rem;
+      margin-bottom: 1.8rem;
+      align-items: flex-start;
+    }
+    .num {
+      width: 36px; height: 36px;
+      border: 2px solid var(--orange);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--orange);
+      flex-shrink: 0;
+    }
+    .step-content h3 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+    .step-content p { font-size: 0.92rem; line-height: 1.65; color: var(--text); }
+    .tm {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--green);
+      font-size: 0.72rem;
+      font-family: 'Courier New', monospace;
+      padding: 0.2rem 0.6rem;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
+    .notes {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-top: 2.5rem;
+    }
+    .notes h2 { font-family: 'Crimson Pro', serif; font-size: 1.2rem; margin-bottom: 1rem; color: var(--green); }
+    .notes p { font-size: 0.88rem; line-height: 1.7; color: var(--muted); margin-bottom: 0.6rem; }
+    .notes p strong { color: var(--text); }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">⚡ Pré-effort · Glucides complexes</div>
+    <h1>Bowl Énergétique<br><em>Patate Douce & Poulet</em></h1>
+    <div class="meta">
+      <span><strong>2</strong> portions</span>
+      <span><strong>10 min</strong> prép.</span>
+      <span><strong>21 min</strong> cuisson</span>
+      <span>TM5 / TM6</span>
+    </div>
+    <p class="author">✨ Recette créée par Claude (Anthropic)</p>
+  </header>
+
+  <main>
+    <p class="desc">
+      Un classique des athlètes : glucides complexes à IG modéré, protéines maigres et bons lipides. À consommer 2h à 2h30 avant l'entraînement ou la compétition pour un carburant durable et progressif.
+    </p>
+
+    <div class="two-col">
+      <div class="card">
+        <h2>🥕 Ingrédients</h2>
+        <ul>
+          <li><span>Patates douces</span><span class="qty">500 g</span></li>
+          <li><span>Filets de poulet</span><span class="qty">300 g</span></li>
+          <li><span>Pois chiches (boîte, égouttés)</span><span class="qty">200 g</span></li>
+          <li><span>Épinards frais</span><span class="qty">80 g</span></li>
+          <li><span>Oignon rouge</span><span class="qty">1</span></li>
+          <li><span>Gousses d'ail</span><span class="qty">2</span></li>
+          <li><span>Huile d'olive</span><span class="qty">2 c.s.</span></li>
+          <li><span>Cumin en poudre</span><span class="qty">1 c.c.</span></li>
+          <li><span>Paprika fumé</span><span class="qty">1 c.c.</span></li>
+          <li><span>Curcuma</span><span class="qty">½ c.c.</span></li>
+          <li><span>Bouillon de volaille</span><span class="qty">200 ml</span></li>
+          <li><span>Jus de citron</span><span class="qty">1 c.s.</span></li>
+          <li><span>Sel & poivre</span><span class="qty">PM</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>📊 Nutrition (par portion)</h2>
+        <ul>
+          <li><span>Glucides</span><span class="qty">~65 g</span></li>
+          <li><span>Protéines</span><span class="qty">~40 g</span></li>
+          <li><span>Lipides</span><span class="qty">~12 g</span></li>
+          <li><span>Fibres</span><span class="qty">~10 g</span></li>
+          <li><span>Calories</span><span class="qty">~550 kcal</span></li>
+          <li><span>Index glycémique</span><span class="qty">Modéré</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="steps">
+      <h2>Préparation Thermomix</h2>
+
+      <div class="step">
+        <div class="num">1</div>
+        <div class="step-content">
+          <h3>Préparer les aromates</h3>
+          <p>Éplucher l'oignon rouge et l'ail, mettre dans le bol.</p>
+          <span class="tm">5 sec · Vit. 5 → racler les parois</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="num">2</div>
+        <div class="step-content">
+          <h3>Faire revenir les épices</h3>
+          <p>Ajouter l'huile d'olive, le cumin, le paprika fumé et le curcuma.</p>
+          <span class="tm">3 min · 120°C · Vit. 1 · sans verre doseur</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="num">3</div>
+        <div class="step-content">
+          <h3>Ajouter le poulet</h3>
+          <p>Couper les filets en cubes de 3 cm. Ajouter avec le bouillon, sel et poivre.</p>
+          <span class="tm">12 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="num">4</div>
+        <div class="step-content">
+          <h3>Patates douces & pois chiches</h3>
+          <p>Éplucher et couper les patates douces en cubes de 2 cm. Ajouter avec les pois chiches.</p>
+          <span class="tm">15 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="num">5</div>
+        <div class="step-content">
+          <h3>Finition aux épinards</h3>
+          <p>Ajouter les épinards frais et le jus de citron.</p>
+          <span class="tm">2 min · 100°C · ↺ Sens inverse · Vit. 1</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="num">6</div>
+        <div class="step-content">
+          <h3>Dresser & servir</h3>
+          <p>Verser dans des bols. Déguster chaud ou tiède. Option : ajouter une cuillère de tahini ou quelques graines de courge.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="notes">
+      <h2>💡 Notes & conseils</h2>
+      <p>⚡ <strong>Timing sportif :</strong> Idéal 2h à 2h30 avant l'entraînement ou la compétition.</p>
+      <p>🔄 <strong>Variante rapide :</strong> Remplace le poulet par du thon en boîte, ajouté froid à la fin.</p>
+      <p>💧 <strong>Hydratation :</strong> Pense à bien t'hydrater en parallèle !</p>
+      <p>🌿 <strong>Anti-inflammatoire :</strong> Le curcuma combiné au poivre noir décuple son absorption — idéal pour la récupération.</p>
+    </div>
+  </main>
+
+  <footer>
+    ✨ Recette créée par <strong>Claude</strong> (Anthropic) · Optimisée Thermomix TM5/TM6
+  </footer>
+</body>
+</html>
